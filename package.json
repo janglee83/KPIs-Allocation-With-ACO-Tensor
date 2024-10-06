@@ -19,7 +19,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts}": [
+    "*.ts": [
       "yarn lint",
       "bash -c 'yarn type-check'",
       "yarn format",
