@@ -9,6 +9,7 @@ export default [
       indent: ['error', 2],
       eqeqeq: ['error', 'always'],
       semi: ['error', 'always'],
+      '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
     },
   },
   { languageOptions: { globals: globals.browser } },
